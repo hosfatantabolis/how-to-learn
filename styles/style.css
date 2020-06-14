@@ -79,7 +79,7 @@
 }
 
 .description{
-  display: flex;
+
 }
 
 .two-columns{
@@ -124,3 +124,38 @@
   font-weight: bold;
 }
 
+/*Digits*/
+
+.digits__section-title{
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.digits__section-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+}
+
+.table__cell{
+  width: 250px;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
