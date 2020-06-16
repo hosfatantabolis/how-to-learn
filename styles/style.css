@@ -17,6 +17,7 @@
   position: relative;
   background-color: #f2f2f2;
   display: flex;
+  overflow: hidden;
 }
 
 .header_margin-left{
@@ -33,7 +34,6 @@
 
 .header__title{
   align-self: center;
- /* margin-left: 64px;*/
   width: 730px;
   z-index: 2;
   line-height: 96px;
@@ -49,6 +49,14 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.header__link{
+  color: #2f80ed;
 }
 
 .header__main-illustration{
@@ -70,20 +78,12 @@
   top: 64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .description{
-
+ padding-top: 100px;
 }
 
 .two-columns{
-  margin: 100px auto 0;
+  margin: auto;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -127,20 +127,30 @@
 /*Digits*/
 
 .digits{
+  padding: 100px 0;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.digits__section-title{
+  margin: 0;
 }
 
 .section-title{
-  margin: 100px auto 20px;
+  text-align: center;
+  margin: 0 auto 20px;
   width: 60%;
+  justify-content: center;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
 }
 
 .section-subtitle{
+  text-align: center;
   margin: 0 auto 60px;
   width: 60%;
   line-height: 34px;
@@ -152,10 +162,17 @@
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
+  padding: 0px;
+  justify-content: space-between;
 }
 
 .table__cell{
   width: 250px;
+  margin-bottom: 60px;
+}
+
+.table__cell_second-row{
+  margin: 0;
 }
 
 .table__heading{
@@ -185,6 +202,7 @@
 }
 
 .feynman__title{
+  text-align: center;
   margin: 100px auto 0;
   width: 648px;
   line-height: 1.15;
@@ -194,7 +212,8 @@
 }
 
 .feynman__subtitle{
-  margin: auto;
+  margin: 70px 0 0;
+  text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -202,6 +221,7 @@
 }
 
 .feynman__link{
+  color: black;
   position: absolute;
   right: 48px;
   top: 50%;
@@ -218,4 +238,60 @@
   z-index: 0;
   left: 0;
   bottom: 0;
+}
+
+/*kaufman*/
+
+.kaufman{
+  position: relative;
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.section-title_theme_dark{
+  color: white;
+  z-index: 2;
+}
+
+.section-subtitle_theme_dark{
+  color: white;
+  margin-bottom: 80px;
+  z-index: 2;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-bottom: 80px;
+  z-index: 2;
+}
+
+.table__heading_theme_dark {
+
+}
+
+.table__cell_theme_dark_second-row{
+  margin-bottom: 0;
+}
+.table__text_theme_dark{
+
+}
+
+.kaufman__triangle{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 759.5px 438.5px 0 438.5px;
+  border-color: #2f80ed transparent transparent transparent;
+  transform: rotate(45deg);
+  right: -230px;
 }
