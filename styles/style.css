@@ -1,36 +1,25 @@
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-.header {
+/*.header {
   padding-left: 64px;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+   выше установили ограничения для секции *//*
   position: relative;
   background-color: #f2f2f2;
   display: flex;
   overflow: hidden;
-}
+}*/
 
-.logo_place_header{
+/*.logo_place_header{
   position: absolute;
   width: 183px;
   height: 32px;
   top: 30px;
   left: 64px;
   z-index: 100;
-}
+}*/
 
-.header__title{
+/*.header__title{
   align-self: center;
   max-width: 730px;
   z-index: 2;
@@ -62,17 +51,17 @@
   z-index: 1;
   right: 0;
   bottom: 0;
-}
+}*/
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/*.header__square-pic {
   position: absolute;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
   right: 0px;
   top: 64px;
-}
+}*/
 
 .description{
  padding-top: 100px;
@@ -217,7 +206,7 @@
   z-index: 1;
 }
 
-.feynman_photo{
+.feynman__photo{
   position: absolute;
   width: 867px;
   height: 637px;

@@ -1,0 +1,19 @@
+@import url(../header/__title/header__title.css);
+@import url(../header/__subtitle/header__subtitle.css);
+@import url(../header/__link/header__link.css);
+@import url(../logo/_place/logo_place_header.css);
+@import url(../header/__main-illustration/header__main-illustration.css);
+@import url(../header/__square-pic/header__square-pic.css);
+
+.header {
+  padding-left: 64px;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  position: relative;
+  background-color: #f2f2f2;
+  display: flex;
+  overflow: hidden;
+}
+
