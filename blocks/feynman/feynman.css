@@ -4,6 +4,7 @@
 @import url(./__title/feynman__title.css);
 
 .feynman{
+  padding-top: 80px;
   display: flex;
   flex-flow: column;
   width: 100%;
