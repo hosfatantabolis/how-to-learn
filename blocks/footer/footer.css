@@ -5,7 +5,6 @@
 @import url(./__social-icon/footer__social-icon.css);
 @import url(./__link/footer__link.css);
 @import url(./__author/footer__author.css);
-@import url(../logo/_place/logo_place_footer.css);
 .footer{
   margin: 0;
   display: flex;
